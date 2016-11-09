@@ -1,2 +1,1 @@
-# AimTux.net
-AimTux.net website
+This is the website for aimtux.net...
