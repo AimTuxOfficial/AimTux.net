@@ -174,7 +174,7 @@
 								var top, bottom, mode;
 
 								// Side-specific scrollex tweaks.
-									if ($this.hasClass('top')) {
+									if ($this.hasClass('top') || $this.hasClass('left') || $this.hasClass('right')) {
 
 										mode = 'top';
 										top = '-20%';
