@@ -189,7 +189,6 @@
 
 									}
 									else {
-
 										mode = 'middle';
 										top = 0;
 										bottom = 0;
@@ -207,7 +206,7 @@
 
 										// Uncomment the line below to "rewind" when this spotlight scrolls out of view.
 
-										//leave:	function(t) { $this.addClass('inactive'); },
+										leave:	function(t) { $this.addClass('inactive'); },
 
 									});
 
