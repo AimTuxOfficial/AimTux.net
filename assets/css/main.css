@@ -2935,7 +2935,7 @@
 			background-image: url("images/overlay.png");
 			content: '';
 			display: block;
-			height: 100%;
+			height: auto;
 			left: 0;
 			top: 0;
 			width: 100%;
