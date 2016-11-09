@@ -2404,7 +2404,7 @@
 			}
 
 		.icon.major {
-			background: #272833;
+			background: #ffffff;
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -2430,6 +2430,11 @@
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
+				}
+
+				.icon.major.alt:before {
+					color: #272833 !important;
+					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
 
 /* Image */
