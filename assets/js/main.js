@@ -177,7 +177,7 @@
 									if ($this.hasClass('top') || $this.hasClass('left') || $this.hasClass('right')) {
 
 										mode = 'top';
-										top = '-20%';
+										top = '-75%';
 										bottom = 0;
 
 									}
@@ -185,7 +185,7 @@
 
 										mode = 'bottom-only';
 										top = 0;
-										bottom = '20%';
+										bottom = '75%';
 
 									}
 									else {
