@@ -185,7 +185,7 @@
 
 										mode = 'bottom-only';
 										top = 0;
-										bottom = '75%';
+										bottom = 0;
 
 									}
 									else {
