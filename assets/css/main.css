@@ -3336,12 +3336,12 @@
 		position: absolute;
 	}
 
-/* Banner */
+/* one */
 
-	#banner {
+	#one {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/one.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3351,7 +3351,7 @@
 		z-index: 21;
 	}
 
-		#banner:before {
+		#one:before {
 			content: '';
 			display: inline-block;
 			height: 100vh;
@@ -3359,7 +3359,7 @@
 			width: 1%;
 		}
 
-		#banner:after {
+		#one:after {
 			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
@@ -3373,7 +3373,7 @@
 			width: 100%;
 		}
 
-		#banner .content {
+		#one .content {
 			display: inline-block;
 			margin-right: 1%;
 			max-width: 95%;
@@ -3384,22 +3384,22 @@
 			z-index: 1;
 		}
 
-			#banner .content header {
+			#one .content header {
 				display: inline-block;
 				vertical-align: middle;
 			}
 
-				#banner .content header h2 {
+				#one .content header h2 {
 					font-size: 2.5em;
 					margin: 0;
 				}
 
-				#banner .content header p {
+				#one .content header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
 				}
 
-			#banner .content .image {
+			#one .content .image {
 				border-radius: 100%;
 				display: inline-block;
 				height: 18em;
@@ -3408,13 +3408,13 @@
 				width: 18em;
 			}
 
-				#banner .content .image img {
+				#one .content .image img {
 					border-radius: 100%;
 					display: block;
 					width: 100%;
 				}
 
-	body.is-touch #banner {
+	body.is-touch #one {
 		background-attachment: scroll;
 	}
 
@@ -3520,9 +3520,9 @@
 				font-size: 1em;
 			}
 
-		/* Banner */
+		/* one */
 
-			#banner .content {
+			#one .content {
 				padding: 4.5em;
 			}
 
@@ -3582,28 +3582,28 @@
 				padding: 4.5em 2.5em 2.5em 2.5em;
 			}
 
-		/* Banner */
+		/* one */
 
-			#banner {
+			#one {
 				background-attachment: scroll;
 			}
 
-				#banner .goto-next {
+				#one .goto-next {
 					height: 7em;
 				}
 
-				#banner .content {
+				#one .content {
 					padding: 9em 0;
 					text-align: center;
 				}
 
-					#banner .content header {
+					#one .content header {
 						display: block;
 						margin: 0 0 2em 0;
 						text-align: center;
 					}
 
-					#banner .content .image {
+					#one .content .image {
 						margin: 0;
 					}
 
@@ -3704,26 +3704,26 @@
 				display: none;
 			}
 
-		/* Banner */
+		/* one */
 
-			#banner {
+			#one {
 				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
 				min-height: calc(100vh - 44px);
 			}
 
-				#banner:before {
+				#one:before {
 					height: calc(100vh - 44px);
 				}
 
-				#banner .content {
+				#one .content {
 					padding: 4.0625em 1.5em 4.875em 1.5em;
 				}
 
-					#banner .content header h2 {
+					#one .content header h2 {
 						font-size: 1.5em;
 					}
 
-					#banner .content .image {
+					#one .content .image {
 						height: 9em;
 						width: 9em;
 					}
@@ -3983,9 +3983,9 @@
 				padding: 3em 1.25em 1em 1.25em;
 			}
 
-		/* Banner */
+		/* one */
 
-			#banner .content {
+			#one .content {
 				padding: 3em 1.5625em 5.25em 1.5625em;
 			}
 
