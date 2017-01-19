@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/darkscroll.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -35,7 +36,8 @@
 							<p>All the AimTux Entertainment you could ever want ;D</p>
 						</header>
 
-INSERT BODY HEREEEEEEE
+						<div id="youtube" class="spidochetube"></div>
+
 			<!-- Footer -->
 				<footer id="footer">
 					<img src="images/aimtux_white.png" style="width:132px;height:50px;">
@@ -55,6 +57,19 @@ INSERT BODY HEREEEEEEE
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/jquery.spidochetube.min.js"></script>
+			<script src="assets/js/jquery.nicescroll.min.js"></script>
+			<script>
+			jQuery(function($){
+			    $('#youtube').spidochetube({
+			        key         : 'AIzaSyDBl52eHfLhzf41OselFDf_vVmfbhKi_Bw',
+			        id          : 'PLygNrsDE7m05pBHa_sfdpMbe_tl8y6_o5',
+			        max_results : 20,
+			        complete: function(){
+			            $('#spidochetube_list').niceScroll({cursorcolor:'#666', cursorborder:'0px solid #fff',autohidemode:false});
+			        }
+			    });
+			});
+			</script>
 	</body>
 </html>
